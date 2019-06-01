@@ -1,0 +1,13 @@
+<!-- Jumbotron -->
+<div class="jumbotron">
+  <h1>Welcome To Note Maker!</h1>
+  <p class="lead">Let's draft and send notes with Note Maker.</p>
+  <p>
+    
+    {{#if isAuthenticated}}
+        <a class="btn btn-lg btn-default" href="users/dashboard" role="button">Get started</a></p>
+      {{else}}
+        <a class="btn btn-lg btn-default" href="users/register" role="button">Get started</a></p>
+      {{/if}}
+</div>
+

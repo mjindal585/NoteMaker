@@ -1,0 +1,21 @@
+<div class="bootstrap-iso">
+	<h2>Sent Notes</h2>
+			
+				</br>
+				</br>
+				{{#each data }}
+				<div class="jumbotron">
+
+				   <div>UserName : {{this.username}}</div>
+                   <div>ID : {{this._id}}</div>
+                   <div>To : {{this.to}}</div>
+				   <div>Message : {{this.html}}</div>
+				   
+				</div>
+			
+				</br>
+				
+                {{/each}}
+			
+
+	</div>
