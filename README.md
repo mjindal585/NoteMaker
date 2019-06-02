@@ -8,7 +8,7 @@ Pre Requisites :
 
 Steps To Run :
 1. Clone the repository .
-2. Go to users.js file in routes folder and edit it to set up your gmail smtp settings by providing your gmail id and gmail account password .
+2. Edit users.js file in routes folder to set up your gmail smtp settings by providing your gmail id and gmail account password .
 3. Open a command prompt and run mongodb by typing mongod.
-4. Run the server by typing npm start.
-5. In your browser , run the app on port 5000 by typing http://localhost:5000 .
+4. Run the server by using the command npm start.
+5. In your browser , run the app on port 5000 by typing http://localhost:5000 as URL.
