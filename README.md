@@ -7,7 +7,7 @@ Pre Requisites :
 2. Allow / Enable less secure apps access to your gmail account by going through your gmail account settings. You can do it directly from https://myaccount.google.com/lesssecureapps .
 
 Steps To Run :
-1. Clone the repository .
+1. Clone the repository on your system .
 2. Edit users.js file in routes folder to set up your gmail smtp settings by providing your gmail id and gmail account password .
 3. Open a command prompt and run mongodb by typing mongod.
 4. Run the server by using the command npm start.
