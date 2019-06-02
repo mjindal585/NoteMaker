@@ -1,5 +1,5 @@
 # NoteMaker
-This a note making and sending app build  using express , mongodb and nodejs , allowing to creating and sending email notes to a particular person on his/her email id.a 
+This a note making and sending app build  using express , mongodb and nodejs , allowing an user to create and send notes to a particular person on his/her email id. 
 
 
 Pre Requisites :
